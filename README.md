@@ -14,9 +14,9 @@ I am a first-year PhD student in Biomedical Engineering at Polytechnique Montrea
 
 ### Background
 
-Hypoglycemia is a common problem in preterm newborns. While being a relatively long-known disease, with a first recognized case in 1911, there is still no clear and consistent definition of hypoglycemia and what conditions can cause brain damage because of rational evidence lack [ ]. Existing research showed that hypoglycemia can lead to serious encephalopathy and brain functional damage, such as visual impairment, epilepsy and cognitive deficits. Additionally, hypoglycemia can cause both transient and permanent structural abnormalities on infant brains [ ]. However, few studies have reported a quantification of the impact of hypoglycemia on neonatal brain development. This is possibly limited by the relatively low sensitivity of brain microstructure imaging techniques. Reports indicated that magnetic resonance imaging (MRI) has a higher in vivo sensitivity to lesions in soft tissues, compared to other imaging modalities, and has the potential to identify and quantify hypoglycemic brain damage.
+Hypoglycemia is a common problem in newborns. Existing research showed that hypoglycemia can lead to serious encephalopathy and brain functional damage, such as visual impairment, epilepsy and cognitive deficits. Additionally, hypoglycemia can cause both transient and permanent structural abnormalities on infant brains. MRI, especially diffusion MRI has a higher in vivo sensitivity to lesions in soft tissues compared to other imaging modalities, and has potential to identify and quantify brain changes.
 
-A new model overcoming these challenges needs to be developed. The model is supposed to precisely estimate the level of increased cellularity, edema and axon / myelin injury caused by hypoglycemia.
+There are some open-source project to reconstruct existing diffusion MRI. However, just to use these tools, one may get confused about operations and principle behind them. In addition, this is greatly stop people to finish their long-term goals of diffusion MRI project. Completing the whole process of dMRI is definitely good to new student in this area.
 
 ### Tools 
 
