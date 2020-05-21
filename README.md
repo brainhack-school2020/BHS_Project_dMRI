@@ -16,21 +16,20 @@ I am a first-year PhD student in Biomedical Engineering at Polytechnique Montrea
 
 Hypoglycemia is a common problem in newborns. Existing research showed that hypoglycemia can lead to serious encephalopathy and brain functional damage, such as visual impairment, epilepsy and cognitive deficits. Additionally, hypoglycemia can cause both transient and permanent structural abnormalities on infant brains. MRI, especially diffusion MRI has a higher in vivo sensitivity to lesions in soft tissues compared to other imaging modalities, and has potential to identify and quantify brain changes.
 
-There are some open-source project to reconstruct existing diffusion MRI. However, just to use these tools, one may get confused about operations and principle behind them. In addition, this is greatly stop people to finish their long-term goals of diffusion MRI project. Completing the whole process of dMRI is definitely good to new student in this area.
+There are some open-source projects to reconstruct existing diffusion MRI. However, just to use these tools, one may get confused about operations and principle behind them. In addition, this is greatly stop people to finish their long-term goals of diffusion MRI project. Completing the whole process of dMRI is definitely good to new student in this area.
 
 ### Tools 
 
 The "D-MRI Model for Impacts Qualificaiton of Hypoglycemia on Brain" project will rely on the following technologies: 
  * Python to be the main language used to complete this project.
  * [Markdown](https://guides.github.com/features/mastering-markdown/), to structure the text.
- * SourceTree to manage the repository.
  * Visual Studio Code to be code editor.
 
 
 
 ### Data 
 
-Since this proposed multi tensor diffusion method has no additional scanning machine requirements than clinical, online public dataset will be used to test this model.  
+I will use data from online dataset offered by The Developing Human COnnectome Project (http://www.developingconnectome.org/second-data-release/). It consists of over 800 neonatal scans and over 250 fetal scans, which can also be used to data analysis after image reconstruction.
 
 ### Deliverables
 
