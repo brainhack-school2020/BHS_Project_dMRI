@@ -2,7 +2,7 @@
 
 # Diffusion MRI project at BrainHack School
 
-Team contributors: Brainhack School
+Team contributors: Erjun Zhang
 
 ![BrainHack School](bhs2020.png)
 
