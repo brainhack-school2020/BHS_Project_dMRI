@@ -8,7 +8,7 @@ Team contributors: Brainhack School
 
 ## Summary 
 
-Each project repository should have a markdown file explaining the background and objectives of the project, as well as a summary of the results, and links to the different deliverables of the project. Project reports are incorporated in the BrainHack School (BHS) [website](https://school.brainhackmtl.org/project). Note that the project summary also involves a number of key words. Those are listed on top of the [GitHub repository](https://github.com/brainhack-school2020/project_template), click `manage topics`.
+I am a first-year PhD student in Biomedical Engineering at Polytechnique Montreal. I am new in this field of MRI and this is my first time to begin an MRI project. The overall goal of this project in BHS is to be familiar with pipeline of diffusion tensor imaging and Python. Thus I can start new project of my study based on this project.
 
 ## Project definition 
 
