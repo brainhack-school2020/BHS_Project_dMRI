@@ -1,6 +1,6 @@
 [![](https://img.shields.io/badge/Visit-our%20project%20page-ff69b4)](https://school.brainhackmtl.org/project/template)
 
-# A template for project reports at BrainHack School
+# Diffusion MRI project at BrainHack School
 
 Team contributors: Brainhack School
 
@@ -20,7 +20,7 @@ There are some open-source projects to reconstruct existing diffusion MRI. Howev
 
 ### Tools 
 
-The "D-MRI Model for Impacts Qualificaiton of Hypoglycemia on Brain" project will rely on the following technologies: 
+The "D-MRI project" project will rely on the following technologies: 
  * Python to be the main language used to complete this project.
  * [Markdown](https://guides.github.com/features/mastering-markdown/), to structure the text.
  * Visual Studio Code to be code editor.
