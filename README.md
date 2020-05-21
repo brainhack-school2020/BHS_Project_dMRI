@@ -38,7 +38,8 @@ I will use data from online dataset offered by The Developing Human COnnectome P
 At the end of this project, we will have:
  - Open-source dMRI code based on Python.
  - A diffusion MRI model dedicated to accurate mapping of the microsturture of baby brains. 
- - 
+ - Adapt to other pipelines
+ - Show what has been changed by low blood sugar.
 
 ## Results 
 
