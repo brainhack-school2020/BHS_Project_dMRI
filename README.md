@@ -31,7 +31,9 @@ The "Diffusion MRI reconstruction project" will rely on the following technologi
 
 ### Data 
 
-I will use data from online dataset offered by The Developing Human COnnectome Project (http://www.developingconnectome.org/second-data-release/). It consists of over 800 neonatal scans and over 250 fetal scans, which can also be used to data analysis after image reconstruction.
+This project used data from online dataset offered by:
+1. The Developing Human COnnectome Project (http://www.developingconnectome.org/second-data-release/). It consists of over 800 neonatal scans and over 250 fetal scans, which can also be used to data analysis after image reconstruction. 
+2. PRIME (http://fcon_1000.projects.nitrc.org/indi/PRIMEdownloads.html). I use this one to as test dataset.
 
 ### Deliverables
 
