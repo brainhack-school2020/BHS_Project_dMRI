@@ -49,7 +49,19 @@ Until now, the necessary tools and dataset are ready.
 
 ...
  
- 
+## Dependencies
+
+* Operation system: I use Linux (Ubuntu 20.04) to complete this project.
+* Python: both Python2 and Python3 were used in this project.
+* Jupter and jupyterlab are needed to run jupyter notebooks in this project.
+* Dipy (https://dipy.org/)
+* Nipype (http://miykael.github.io/nipype-beginner-s-guide/installation.html)
+* FSL (https://fsl.fmrib.ox.ac.uk/fsl/fslwiki/FSL). I installed FSL6.0 based on python2 following FslInstallation/Linux (https://fsl.fmrib.ox.ac.uk/fsl/fslwiki/FslInstallation/Linux) and FslInstallation/ShellSetup. In addtion, update Fsl-core is recommended.
+* NeuroDebian: To facilitate FSL and Nipype, NeuroDebian is need to be installed. I installed it following http://neuro.debian.net/.
+* AMICO (https://github.com/daducci/AMICO)
+
+
+
 ## Conclusion and acknowledgement
 
 TBD
