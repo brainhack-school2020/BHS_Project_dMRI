@@ -53,11 +53,11 @@ Weekly Deliverable
 
 1. Data Visulization:
   - 3D volume slices image 
-  ![](https://github.com/brainhack-school2020/BHS_Project_dMRI/blob/master/Visualization/VolumeSlicesImg.png)
+  <iframe height=500 width=500 src="https://github.com/brainhack-school2020/BHS_Project_dMRI/blob/master/Visualization/VolumeSlicesImg.gif">
   - Interactive widgets use to show preprocess results 
   ![](https://github.com/brainhack-school2020/BHS_Project_dMRI/blob/master/Visualization/PreprocessImg.png)
   - Interactive widgets use to shwo reconstruction results 
-  ![](https://github.com/brainhack-school2020/BHS_Project_dMRI/blob/master/Visualization/ReconstructedImg.png)
+  <iframe height=500 width=500 src="https://github.com/brainhack-school2020/BHS_Project_dMRI/blob/master/Visualization/ReconstructedImg.gif">
 ### Progress overview
 
 
