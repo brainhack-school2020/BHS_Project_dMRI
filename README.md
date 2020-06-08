@@ -59,12 +59,19 @@ Weekly Deliverable
   - Interactive widgets use to shwo reconstruction results 
   ![](https://github.com/brainhack-school2020/BHS_Project_dMRI/blob/master/Visualization/ReconstructedImg.gif)
   
-  
 ### Progress overview
 
 
 ...
- 
+## What I leraned
+
+* Markdown
+* Github
+* Jupter notebook
+* How to reconstruct MR images starting from raw data
+* A small but useful gif maker tool: Peek (https://github.com/phw/peek). If you want to make GIF, I recommend it to you.
+
+
 ## Dependencies
 
 * Operation system: I use Linux (Ubuntu 20.04) to complete this project.
