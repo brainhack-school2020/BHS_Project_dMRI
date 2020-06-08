@@ -42,12 +42,21 @@ At the end of this project, we will have:
  - A diffusion MRI model dedicated to accurate mapping of the microsturture of baby brains. 
  - Adapt to other pipelines
  - Show what has been changed by low blood sugar.
+ 
+Weekly Deliverable
+ - Week 1: [Assiginment 2](https://github.com/zhangerjun/Zhang-EJ-QLS612)
+ - Week 2: [README file](https://github.com/brainhack-school2020/BHS_Project_dMRI/blob/master/README.md)
+ - Week 3: [Data visualization](https://github.com/brainhack-school2020/BHS_Project_dMRI/tree/master/Visualization)
+ - Week 4: [Project report]()
 
 ## Results 
 
+1. Data Visulization:
+  - 3D volume slices image ![](https://github.com/brainhack-school2020/BHS_Project_dMRI/blob/master/Visualization/VolumeSlicesImg.png)
+  - Interactive widgets use to show preprocess results ![](https://github.com/brainhack-school2020/BHS_Project_dMRI/blob/master/Visualization/PreprocessImg.png)
+  - Interactive widgets use to shwo reconstruction results ![](https://github.com/brainhack-school2020/BHS_Project_dMRI/blob/master/Visualization/ReconstructedImg.png)
 ### Progress overview
 
-Until now, the necessary tools and dataset are ready.
 
 ...
  
