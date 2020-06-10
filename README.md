@@ -4,11 +4,9 @@
 
 Team contributors: Erjun Zhang
 
-<div align="center">
+<div align="left">
 <img src="https://github.com/brainhack-school2020/BHS_Project_dMRI/blob/master/bhs2020.png" title="Brainhack School" width=500>
 </div>
-
-![BrainHack School](bhs2020.png)
 
 ## Summary 
 
