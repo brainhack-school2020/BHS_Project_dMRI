@@ -77,17 +77,17 @@ Weekly Deliverable
 	* matplotlib, plotly, ipywidgets
 	* Function definition and calling
 2. Markdown
-	* Format this READEME file
+	* Format this README file
 	* Insert figures and animation
-	* LaTex
+	* LaTex to edit mathsmatical equations
 3. Github
 	* Version control
 	* Project ogernization
 4. Jupter notebook
-5. Found some small but useful tools
+5. Found and learnt to use some small but useful tools
 	* [Peek](https://github.com/phw/peek) for GIF making
 	* [Gedit](https://wiki.gnome.org/Apps/Gedit) to edit code or markdown
-6. How to reconstruct MR images starting from raw data
+6. Medical file format (NII) and data structure (BIDS)
 
 
 ## Dependencies
