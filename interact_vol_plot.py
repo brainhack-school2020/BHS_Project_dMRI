@@ -4,46 +4,47 @@
 # In[ ]:
 
 
-def vol_plot(x):
-	import os #TO control directories
-	import nibabel as nib # read and save medical images
-	import matplotlib.pyplot as plt
-	from mpl_toolkits.mplot3d import Axes3D
-	import plotly
-	import plotly.express as px
-	from ipywidgets import interact, interactive, fixed, interact_manual
-	import ipywidgets as widgets
-	from skimage import io #用于读取保存或显示图片或者视频
-	
-	import timeit #compute time, useage: timeit.timeit()
-	import math
-	import time
-	import warnings
-	import numpy as np
-	
-	import nipype.interfaces.fsl as fsl #topup
-	from nipype.interfaces.fsl import TOPUP
-	from nipype.interfaces.fsl import ApplyTOPUP
-	from nipype.interfaces.fsl import Eddy
-	from nipype.testing import anatfile
-	
-	from dipy.denoise.localpca import mppca #denoising
-	from dipy.io import read_bvals_bvecs
-	from dipy.core.gradients import gradient_table
-	from dipy.reconst.dti import TensorModel
-	from dipy.reconst.dti import fractional_anisotropy
-	from dipy.reconst.dti import color_fa
-	import dipy.reconst.dki as dki
-	"to create 3D  MRI figure with slider"
-	vol = x
-	colormax = vol.max()#获取最大array中的最大值，最后代表cmax
-	volume = vol.T
-	len(volume)
-	r, c = volume[math.floor(len(volume)/2)].shape
-	# Define frames
-	import plotly.graph_objects as go
-	nb_frames = len(volume)-1
-	fig = go.Figure(frames=[go.Frame(
+def interact_vol_plot(x,IntenseScale):
+    "to create 3D  MRI figure with slider"
+    import os #TO control directories
+    import nibabel as nib # read and save medical images
+    import matplotlib.pyplot as plt
+    from mpl_toolkits.mplot3d import Axes3D
+    #%matplotlib inline
+    import plotly
+    import plotly.express as px
+    from ipywidgets import interact, interactive, fixed, interact_manual
+    import ipywidgets as widgets
+    from skimage import io #用于读取保存或显示图片或者视频
+    
+    import timeit #compute time, useage: timeit.timeit()
+    import math
+    import time
+    import warnings
+    import numpy as np
+    
+    import nipype.interfaces.fsl as fsl #topup
+    from nipype.interfaces.fsl import TOPUP
+    from nipype.interfaces.fsl import ApplyTOPUP
+    from nipype.interfaces.fsl import Eddy
+    from nipype.testing import anatfile
+    
+    from dipy.denoise.localpca import mppca #denoising
+    from dipy.io import read_bvals_bvecs
+    from dipy.core.gradients import gradient_table
+    from dipy.reconst.dti import TensorModel
+    from dipy.reconst.dti import fractional_anisotropy
+    from dipy.reconst.dti import color_fa
+    import dipy.reconst.dki as dki
+    vol = x
+    colormax = IntenseScale*vol.max()#获取最大array中的最大值，最后代表cmax
+    volume = vol.T
+    len(volume)
+    r, c = volume[math.floor(len(volume)/2)].shape
+    # Define frames
+    import plotly.graph_objects as go
+    nb_frames = len(volume)-1
+    fig = go.Figure(frames=[go.Frame(
         data=go.Surface(
         z=(len(volume)-1 - k ) * np.ones((r, c)),
         surfacecolor=volume[len(volume)-1 - k],
@@ -52,22 +53,24 @@ def vol_plot(x):
         name=str(k) # name the frame for the animation to behave properly
         )
         for k in range(nb_frames)])
-	# Add data to be displayed before animation starts
-	fig.add_trace(go.Surface(
+
+    # Add data to be displayed before animation starts
+    fig.add_trace(go.Surface(
         z=(len(volume)-1) * np.ones((r, c)),
         surfacecolor=volume[len(volume)-1],#np.flipud(volume[30]),
         colorscale='gray',
         cmin=0, cmax=colormax,
         colorbar=dict(thickness=20, ticklen=4)
         ))
-	def frame_args(duration):
-		return {
+    def frame_args(duration):
+        return {
                 "frame": {"duration": 500},# Duration can be used to change animate speed
                 "mode": "immediate",
                 "fromcurrent": True,
                 "transition": {"duration": 500, "easing": "linear"},
             }
-		sliders = [
+
+    sliders = [
                 {
                     "pad": {"b": 10, "t": 60},
                     "len": 0.9,
@@ -83,9 +86,10 @@ def vol_plot(x):
                     ],
                 }
             ]
-		# Layout
-		fig.update_layout(
-             title='Slices in volumetric data',
+
+    # Layout
+    fig.update_layout(
+             title='Volume Slices Image',
              width=600,
              height=600,
              scene=dict(
@@ -115,5 +119,5 @@ def vol_plot(x):
              ],
              sliders=sliders
     )
-	fig.show()
+    fig.show()
 
