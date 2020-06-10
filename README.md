@@ -70,6 +70,7 @@ Weekly Deliverable
 	<img src="https://github.com/brainhack-school2020/BHS_Project_dMRI/blob/master/Visualization/ReconstructedImg.gif" width="300" title="Interactive widgets use to show reconstruction results">
 </div>
 2. Preprocessing results
+
 ![](https://github.com/brainhack-school2020/BHS_Project_dMRI/blob/master/Fig/PreproResults.png)
   
 ### Progress overview
