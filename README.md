@@ -88,7 +88,7 @@ Weekly Deliverable
 	* [Peek](https://github.com/phw/peek) for GIF making
 	* [Gedit](https://wiki.gnome.org/Apps/Gedit) to edit code or markdown
 6. Medical file format (NII) and data structure (BIDS)
-
+7. Statistical method and machine learning
 
 ## Dependencies
 
