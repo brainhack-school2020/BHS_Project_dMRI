@@ -50,7 +50,9 @@ Weekly Deliverable
  - Week 4: [Project report]()
 ## Method
 1. Preprocessing: TOPUP flow chart
-![](https://github.com/brainhack-school2020/BHS_Project_dMRI/blob/master/Fig/TOPUP_FlowChart.png)
+<div align="center">
+	<img src="https://github.com/brainhack-school2020/BHS_Project_dMRI/blob/master/Fig/TOPUP_FlowChart.png" width="600" alt="1" title="3D volume slices image">
+</div>
 ## Results 
 
 1. Data Visulization (see [gif figure](https://github.com/brainhack-school2020/BHS_Project_dMRI/tree/master/Visualization) below):
