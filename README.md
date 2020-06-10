@@ -71,13 +71,23 @@ Weekly Deliverable
 
 
 ...
-## What I leraned
-
-* Markdown
-* Github
-* Jupter notebook
-* How to reconstruct MR images starting from raw data
-* A small but useful gif maker tool: Peek (https://github.com/phw/peek). If you want to make GIF, I recommend it to you.
+## What I have leraned
+1. Python
+	* FSL, Nipype.interfaces, DIPY
+	* matplotlib, plotly, ipywidgets
+	* Function definition and calling
+2. Markdown
+	* Format this READEME file
+	* Insert figures and animation
+	* LaTex
+3. Github
+	* Version control
+	* Project ogernization
+4. Jupter notebook
+5. Found some small but useful tools
+	* [Peek](https://github.com/phw/peek) for GIF making
+	* [Gedit](https://wiki.gnome.org/Apps/Gedit) to edit code or markdown
+6. How to reconstruct MR images starting from raw data
 
 
 ## Dependencies
