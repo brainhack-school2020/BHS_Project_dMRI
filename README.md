@@ -8,7 +8,9 @@ Team contributors: Erjun Zhang
 
 ## Summary 
 
-I am a first-year PhD student in Biomedical Engineering at Polytechnique Montreal. I am new in this field of MRI and this is my first time to begin an MRI project. The overall goal of this project in BHS is to be familiar with pipeline of diffusion tensor imaging and Python. Thus I can start new project of my study based on this project.
+I am a first-year PhD student in Biomedical Engineering at Polytechnique Montreal. I am new in this field of MRI and this is my first time to begin an MRI project. The overall goal of this project in BHS is to be familiar with pipeline of diffusion tensor data preprocessing, DTI model and Python so that I can start my PhD project based on this project.
+
+This project starts from introduction of MRI data structure and image file format, then move to data preprocessing (denoising, distortion correct, see figure below), finally fit DTI model. Finally, images genereate by each steps are virualized and analyzed. 
 
 ## Project definition 
 
@@ -16,7 +18,7 @@ I am a first-year PhD student in Biomedical Engineering at Polytechnique Montrea
 
 Hypoglycemia is a common problem in newborns. Existing research showed that hypoglycemia can lead to serious encephalopathy and brain functional damage, such as visual impairment, epilepsy and cognitive deficits. Additionally, hypoglycemia can cause both transient and permanent structural abnormalities on infant brains. MRI, especially diffusion MRI has a higher in vivo sensitivity to lesions in soft tissues compared to other imaging modalities, and has potential to identify and quantify brain changes.
 
-There are some open-source projects to reconstruct existing diffusion MRI. However, just to use these tools, one may get confused about operations and principle behind them. In addition, this is greatly stop people to finish their long-term goals of diffusion MRI project. Completing the whole process of dMRI is definitely good to new student in this area.
+There are some open-source projects to reconstruct existing diffusion MRI. However, only use these tools, one may get confused about operations and principle behind them. In addition, this is greatly stop people to finish their long-term goals of diffusion MRI project. Completing the whole process of dMRI reconstruction is definitely good to new student in this area.
 
 ### Tools 
 
@@ -69,8 +71,7 @@ Weekly Deliverable
   
 ### Progress overview
 
-
-...
+Formating final project file...
 ## What I have leraned
 1. Python
 	* FSL, Nipype.interfaces, DIPY
