@@ -72,13 +72,13 @@ Weekly Deliverable
 2. Preprocessing results
 
 <div align="center">
-	<img src="https://github.com/brainhack-school2020/BHS_Project_dMRI/blob/master/Fig/PreproResults.png" width="900" alt="1" title="DTI Results">
+	<img src="https://github.com/brainhack-school2020/BHS_Project_dMRI/blob/master/Fig/PreproResults.png" width="800" alt="1" title="DTI Results">
 </div>
 
 3. DTI results
 
 <div align="center">
-	<img src="https://github.com/brainhack-school2020/BHS_Project_dMRI/blob/master/Fig/DTI_Results.png" width="900" alt="1" title="DTI Results">
+	<img src="https://github.com/brainhack-school2020/BHS_Project_dMRI/blob/master/Fig/DTI_Results.png" width="800" alt="1" title="DTI Results">
 </div>
 
 
