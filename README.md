@@ -73,6 +73,10 @@ Weekly Deliverable
 
 ![](https://github.com/brainhack-school2020/BHS_Project_dMRI/blob/master/Fig/PreproResults.png)
   
+3. DTI results
+
+![](https://github.com/brainhack-school2020/BHS_Project_dMRI/blob/master/Fig/DTI_Results.png)
+
 ### Progress overview
 
 Formating final project file...
