@@ -10,7 +10,7 @@ Team contributors: Erjun Zhang, Brainhack Shool 2020
 
 ## Summary 
 
-This project is about diffusion magnetic resonance (MR) data processing and analyzation. It maily consists of three part: brain diffusion MR data preprocessing, diffusion MR images reconstrution, data visualization and left and right hemispherical preprocessed MR images classification. All of processures are included in [this Jupyter Notebook file](https://github.com/brainhack-school2020/BHS_Project_dMRI/blob/master/dMRI%20Reconstruction%20Project.ipynb). Explainations about processures results and other details are given in it.
+This project is about diffusion magnetic resonance (MR) data processing and analyzation. It maily consists of three part: brain diffusion MR data preprocessing, diffusion MR images reconstrution, data visualization and left and right hemispherical preprocessed MR images classification. The whole processures can be found in [this Jupyter Notebook file](https://github.com/brainhack-school2020/BHS_Project_dMRI/blob/master/dMRI%20Reconstruction%20Project.ipynb). Explainations about processures results and other details are given in it.
 
 With reproducibility being a primary concern, this project was completed by using open-source softwares/tools (Python, FSL, DIPYPE...) and dataset (dHCP and PRIME). It can be as a simple tutorial/example for new students in neuroscience (diffusion MR brain imaging) to familar/start with their further neuroscience study. 
 
@@ -18,18 +18,27 @@ With reproducibility being a primary concern, this project was completed by usin
 
 ### Background
 
-Hypoglycemia is a common problem in newborns. Existing research showed that hypoglycemia can lead to serious encephalopathy and brain functional damage, such as visual impairment, epilepsy and cognitive deficits. Additionally, hypoglycemia can cause both transient and permanent structural abnormalities on infant brains. MRI, especially diffusion MRI has a higher in vivo sensitivity to lesions in soft tissues compared to other imaging modalities, and has potential to identify and quantify brain changes.
+Low blood sugar is a common problem in both children and adults. Existing research showed that it may lead to serious both transient and permanent structural abnormalities on brains. Magnetic resonance imaging (MRI), specially diffusion MRI, has a higher in vivo sensitivity to lesions in soft tissues compared to other imaging modalities, and has potential to identify and quantify brain structure changes. Some of this changes are not appraient enough,even for expericed experts. Machine learning is an useful mehtod to discover potencial features. 
 
-There are some open-source projects to reconstruct existing diffusion MRI. However, only use these tools, one may get confused about operations and principle behind them. In addition, this is greatly stop people to finish their long-term goals of diffusion MRI project. Completing the whole process of dMRI reconstruction is definitely good to new student in this area.
+Currently, there are some open-source softwares to reconstruct and analysis diffusion MRI data. However, only use these tools, one, like me as a new student in this field, may get confused about operations and principle behind them. This seriously stops people to reach their long-term goals in their diffusion MRI project. 
+
+Thus, I began this project to preprocess  dMRI data, reconstruct diffusion MR images and do some analysis by using machine learning. The goals are as following:
+
+* Get preprocessed diffusion MR images from raw data;
+* Reconstruct diffusion tensor images from the preprocessed data;
+* By using machine learning, try to classify two hemispherical brain from preprocessed diffusion images.
 
 ### Tools 
 
-The "Diffusion MRI reconstruction project" will rely on the following technologies: 
- * Python to be the main language used to complete this project.
+The "Diffusion MRI reconstruction project" will rely on the following tools: 
+ * Python3: coding language used to complete this project (Python2 also needed for some special packages).
+ * Github and git: to organize this project and make version control
+ * Jupyter Notebook: to edit 
  * DIPY to be used as analysis package of diffuison MRI data for Python.
  * [Markdown](https://guides.github.com/features/mastering-markdown/), to structure the text.
- * Visual Studio Code to be code editor.
- * qMRLab to load reconstruction results offered by online datasets
+ * Visual Studio Code: to be code editor
+ * matplotlib 
+ * Linux (Ubuntu 20.04)
 
 
 
