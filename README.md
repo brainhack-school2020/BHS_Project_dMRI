@@ -33,11 +33,12 @@ Thus, I began this project to preprocess  dMRI data, reconstruct diffusion MR im
 The "Diffusion MRI reconstruction project" will rely on the following tools: 
  * Python3: coding language used to complete this project (Python2 also needed for some special packages).
  * Github and git: to organize this project and make version control
- * Jupyter Notebook: to edit 
- * DIPY to be used as analysis package of diffuison MRI data for Python.
- * [Markdown](https://guides.github.com/features/mastering-markdown/), to structure the text.
+ * Jupyter Notebook: to file code, visualizations and results 
+ * [Markdown](https://guides.github.com/features/mastering-markdown/), to structure the text in README and Jupyter Notebook
  * Visual Studio Code: to be code editor
- * matplotlib 
+ * Nipype: to use FSL command preprocessing  image data
+ * DIPY: to be used as diffuison tensor imaging (DTI) fitting and denoising
+ * matplotlib, plotly and ipython widgets: data visualization
  * Linux (Ubuntu 20.04)
 
 
@@ -45,22 +46,19 @@ The "Diffusion MRI reconstruction project" will rely on the following tools:
 ### Data 
 
 This project used data from online dataset offered by:
-1. The Developing Human Connectome Project (http://www.developingconnectome.org/second-data-release/). It consists of over 800 neonatal scans and over 250 fetal scans, which can also be used to data analysis after image reconstruction. 
-2. PRIME (http://fcon_1000.projects.nitrc.org/indi/PRIMEdownloads.html). I use this one to as test dataset.
+1. [The Developing Human Connectome Project](http://www.developingconnectome.org/second-data-release/). It consists of over 800 neonatal scans and over 250 fetal scans and can be used to data analysis after image reconstruction. 
+2. [PRIME](http://fcon_1000.projects.nitrc.org/indi/PRIMEdownloads.html): used this dataset to reconstruct diffusion Images. 
+3. Since during preprocessing, we used epi data with two oposite phase-encoding directions to correct distortions, other data can also be used as the source data if meet this requiement.
 
 ### Deliverables
 
-At the end of this project, we will have:
- - Open-source dMRI code based on Python.
- - A diffusion MRI model dedicated to accurate mapping of the microsturture of baby brains. 
- - Adapt to other pipelines
- - Show what has been changed by low blood sugar.
+At the end of this project, we will have: Jupyter notebook will be developted, allowing diffusion MR reconstrution and data analyzation. Weekly Deliverables are as following:
  
-Weekly Deliverable
  - Week 1: [Assiginment 2](https://github.com/zhangerjun/Zhang-EJ-QLS612)
  - Week 2: [README file](https://github.com/brainhack-school2020/BHS_Project_dMRI/blob/master/README.md)
  - Week 3: [Data visualization](https://github.com/brainhack-school2020/BHS_Project_dMRI/tree/master/Visualization)
  - Week 4: [Project report]()
+ 
 ## Method
 1. Preprocessing: TOPUP flow chart
 <div align="center">
