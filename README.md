@@ -79,7 +79,7 @@ At the end of this project, we will have: Jupyter notebook will be developted, a
 2. Preprocessing results
 
 <div align="center">
-	<img src="https://github.com/brainhack-school2020/BHS_Project_dMRI/blob/master/Fig/PreproResults2.png" width="800" alt="1" title="DTI Results">
+	<img src="https://github.com/brainhack-school2020/BHS_Project_dMRI/blob/master/Fig/PreproResults2.png.png" width="800" alt="1" title="DTI Results">
 </div>
 
 3. DTI results
