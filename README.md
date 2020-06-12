@@ -1,8 +1,8 @@
 [![](https://img.shields.io/badge/Visit-our%20project%20page-ff69b4)](https://school.brainhackmtl.org/project/template)
 
-# Diffusion MRI reconstruction project at BrainHack School
+# Diffusion MRI reconstruction project
 
-Team contributors: Erjun Zhang
+Team contributors: Erjun Zhang, Brainhack Shool 2020
 
 <div align="left">
 <img src="https://github.com/brainhack-school2020/BHS_Project_dMRI/blob/master/bhs2020.png" title="Brainhack School" width=500>
@@ -10,9 +10,9 @@ Team contributors: Erjun Zhang
 
 ## Summary 
 
-I am a first-year PhD student in Biomedical Engineering at Polytechnique Montreal. I am new in this field of MRI and this is my first time to begin an MRI project. The overall goal of this project in BHS is to be familiar with pipeline of diffusion tensor data preprocessing, DTI model and Python so that I can start my PhD project based on this project.
+This project is about diffusion magnetic resonance (MR) data processing and analyzation. It maily consists of three part: brain diffusion MR data preprocessing, diffusion MR images reconstrution, data visualization and left and right hemispherical preprocessed MR images classification. All of processures are included in [this Jupyter Notebook file](https://github.com/brainhack-school2020/BHS_Project_dMRI/blob/master/dMRI%20Reconstruction%20Project.ipynb). Explainations about processures results and other details are given in it.
 
-This project starts from introduction of MRI data structure and image file format, then move to data preprocessing (denoising, distortion correct, see figure below), finally fit DTI model. Finally, images genereate by each steps are virualized and analyzed. 
+With reproducibility being a primary concern, this project was completed by using open-source softwares/tools (Python, FSL, DIPYPE...) and dataset (dHCP and PRIME). It can be as a simple tutorial/example for new students in neuroscience (diffusion MR brain imaging) to familar/start with their further neuroscience study. 
 
 ## Project definition 
 
@@ -36,7 +36,7 @@ The "Diffusion MRI reconstruction project" will rely on the following technologi
 ### Data 
 
 This project used data from online dataset offered by:
-1. The Developing Human COnnectome Project (http://www.developingconnectome.org/second-data-release/). It consists of over 800 neonatal scans and over 250 fetal scans, which can also be used to data analysis after image reconstruction. 
+1. The Developing Human Connectome Project (http://www.developingconnectome.org/second-data-release/). It consists of over 800 neonatal scans and over 250 fetal scans, which can also be used to data analysis after image reconstruction. 
 2. PRIME (http://fcon_1000.projects.nitrc.org/indi/PRIMEdownloads.html). I use this one to as test dataset.
 
 ### Deliverables
@@ -55,7 +55,7 @@ Weekly Deliverable
 ## Method
 1. Preprocessing: TOPUP flow chart
 <div align="center">
-	<img src="https://github.com/brainhack-school2020/BHS_Project_dMRI/blob/master/Fig/TOPUP_FlowChart.png" width="600" alt="1" title="3D volume slices image">
+	<img src="https://github.com/brainhack-school2020/BHS_Project_dMRI/blob/master/Fig/TOPUP_FlowChart.png" width="600" alt="1" title="Preprocessing: TOPUP flow chart">
 </div>
 
 ## Results 
