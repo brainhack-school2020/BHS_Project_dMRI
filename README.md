@@ -88,6 +88,12 @@ At the end of this project, we will have: Jupyter notebook will be developted, a
 	<img src="https://github.com/brainhack-school2020/BHS_Project_dMRI/blob/master/Fig/DTI_Results.png" width="800" alt="1" title="DTI Results">
 </div>
 
+4. Left and right hemispheres classification results
+
+<div align="left">
+	<img src="https://github.com/brainhack-school2020/BHS_Project_dMRI/blob/master/Fig/classification.png" width="400" alt="1" title="DTI Results">
+</div>
+
 
 ### Progress overview
 
