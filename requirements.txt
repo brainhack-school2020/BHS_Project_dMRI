@@ -1,0 +1,143 @@
+ansi2html==1.5.2
+asn1crypto @ file:///home/conda/feedstock_root/build_artifacts/asn1crypto_1588618038116/work
+attrs==19.3.0
+backcall==0.1.0
+bleach @ file:///home/conda/feedstock_root/build_artifacts/bleach_1588608214987/work
+Brotli==1.0.7
+brotlipy==0.7.0
+certifi==2020.4.5.1
+cffi==1.14.0
+chardet==3.0.4
+ci-info==0.2.0
+click==7.1.2
+conda==4.8.3
+conda-package-handling==1.6.0
+cryptography==2.9.2
+cvxopt==1.2.5
+cycler==0.10.0
+dash==1.12.0
+dash-core-components==1.10.0
+dash-html-components==1.0.3
+dash-renderer==1.4.1
+dash-table==4.7.0
+decorator==4.4.2
+defusedxml==0.6.0
+dipy==1.1.0
+entrypoints==0.3
+etelemetry==0+unknown
+filelock @ file:///home/conda/feedstock_root/build_artifacts/filelock_1589994591731/work
+flake8 @ file:///home/conda/feedstock_root/build_artifacts/flake8_1590452865665/work
+Flask==1.1.2
+Flask-Compress==1.5.0
+fslpy @ file:///home/conda/feedstock_root/build_artifacts/fslpy_1590087580722/work
+future==0.18.2
+h5py==2.10.0
+html5lib==1.0.1
+idna==2.9
+imageio==2.8.0
+importlib-metadata @ file:///home/conda/feedstock_root/build_artifacts/importlib-metadata_1591451751445/work
+ipykernel @ file:///home/conda/feedstock_root/build_artifacts/ipykernel_1590020200501/work/dist/ipykernel-5.3.0-py3-none-any.whl
+ipython @ file:///home/conda/feedstock_root/build_artifacts/ipython_1590796899444/work
+ipython-genutils==0.2.0
+ipywidgets==7.5.1
+isodate==0.6.0
+itsdangerous==1.1.0
+jedi==0.17.0
+Jinja2==2.11.2
+joblib @ file:///home/conda/feedstock_root/build_artifacts/joblib_1589812474002/work
+json5==0.9.0
+jsonschema==3.2.0
+jupyter-client==6.1.3
+jupyter-console==6.1.0
+jupyter-core==4.6.3
+jupyter-dash==0.2.1.post1
+jupyterlab==2.1.4
+jupyterlab-server @ file:///home/conda/feedstock_root/build_artifacts/jupyterlab_server_1590229434073/work
+keepalive==0.5
+kiwisolver==1.2.0
+lxml @ file:///home/conda/feedstock_root/build_artifacts/lxml_1589927514031/work
+MarkupSafe==1.1.1
+matplotlib==3.2.1
+mccabe==0.6.1
+mistune==0.8.4
+mkl-fft==1.1.0
+mkl-random==1.1.0
+mkl-service==2.3.0
+mock @ file:///home/conda/feedstock_root/build_artifacts/mock_1588618847833/work
+nbconvert==5.6.1
+nbformat==5.0.6
+networkx==2.4
+neurdflib==5.0.1
+nibabel==3.1.0
+nilearn==0.6.2
+nipype @ file:///home/conda/feedstock_root/build_artifacts/nipype_1591202178271/work
+notebook @ file:///home/conda/feedstock_root/build_artifacts/notebook_1588887226267/work
+numexpr==2.7.1
+numpy @ file:///home/conda/feedstock_root/build_artifacts/numpy_1588605083040/work
+packaging @ file:///home/conda/feedstock_root/build_artifacts/packaging_1589925210001/work
+pandas @ file:///home/conda/feedstock_root/build_artifacts/pandas_1590752753572/work
+pandocfilters==1.4.2
+parso==0.7.0
+patsy==0.5.1
+pexpect==4.8.0
+pickleshare==0.7.5
+Pillow==7.1.2
+plotly==4.8.1
+prometheus-client @ file:///home/conda/feedstock_root/build_artifacts/prometheus_client_1590412252446/work
+prompt-toolkit==3.0.5
+prov==1.5.3
+psutil==5.7.0
+ptyprocess==0.6.0
+pycodestyle @ file:///home/conda/feedstock_root/build_artifacts/pycodestyle_1589305246696/work
+pycosat==0.6.3
+pycparser==2.20
+pydicom @ file:///home/conda/feedstock_root/build_artifacts/pydicom_1590767348156/work
+pydotplus==2.0.2
+pyflakes==2.2.0
+Pygments==2.6.1
+pyOpenSSL==19.1.0
+pyparsing==2.4.7
+PyQt5==5.12.3
+PyQt5-sip==4.19.18
+PyQtChart==5.12
+PyQtWebEngine==5.12.1
+pyrsistent==0.16.0
+PySocks==1.7.1
+python-dateutil==2.8.1
+python2==1.2
+pytz==2020.1
+PyWavelets==1.1.1
+pyzmq==19.0.1
+qtconsole @ file:///home/conda/feedstock_root/build_artifacts/qtconsole_1589392299544/work
+QtPy==1.9.0
+rdflib @ file:///home/conda/feedstock_root/build_artifacts/rdflib_1588779858729/work
+requests==2.23.0
+retrying==1.3.3
+ruamel-yaml==0.15.80
+scikit-image==0.17.2
+scikit-learn @ file:///home/conda/feedstock_root/build_artifacts/scikit-learn_1589920855303/work
+scipy==1.4.1
+seaborn==0.10.1
+Send2Trash==1.5.0
+simplejson @ file:///home/conda/feedstock_root/build_artifacts/simplejson_1588608463837/work
+sip==4.19.22
+six @ file:///home/conda/feedstock_root/build_artifacts/six_1590081179328/work
+sklearn==0.0
+SPARQLWrapper @ file:///home/conda/feedstock_root/build_artifacts/sparqlwrapper_1588887982619/work
+statsmodels==0.11.1
+tables==3.6.1
+terminado==0.8.3
+testpath==0.4.4
+threadpoolctl @ file:///tmp/tmp79xdzxkt/threadpoolctl-2.1.0-py3-none-any.whl
+tifffile==2020.6.3
+tornado==6.0.4
+tqdm @ file:///home/conda/feedstock_root/build_artifacts/tqdm_1591181521996/work
+traitlets==4.3.3
+traits==6.0.0
+urllib3==1.25.9
+wcwidth @ file:///home/conda/feedstock_root/build_artifacts/wcwidth_1591117871324/work
+webencodings==0.5.1
+Werkzeug==1.0.1
+widgetsnbextension==3.5.1
+xvfbwrapper==0.2.9
+zipp==3.1.0
