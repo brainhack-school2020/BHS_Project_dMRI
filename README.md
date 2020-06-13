@@ -58,13 +58,8 @@ At the end of this project, we will have: Jupyter notebook will be developed, al
  - Week 1: [Assignment 2](https://github.com/zhangerjun/Zhang-EJ-QLS612)
  - Week 2: [README file](https://github.com/brainhack-school2020/BHS_Project_dMRI/blob/master/README.md)
  - Week 3: [Data visualization](https://github.com/brainhack-school2020/BHS_Project_dMRI/tree/master/Visualization)
- - Week 4: [Project report]()
+ - Week 4: [Project report](https://github.com/brainhack-school2020/BHS_Project_dMRI) and [project prosentation](https://github.com/brainhack-school2020/BHS_Project_dMRI/blob/master/BHS_dMRI_Project.pdf)
  
-## Method
-1. Preprocessing: TOPUP flow chart
-<div align="center">
-	<img src="https://github.com/brainhack-school2020/BHS_Project_dMRI/blob/master/Fig/TOPUP_FlowChart.png" width="600" alt="1" title="Preprocessing: TOPUP flow chart">
-</div>
 
 ## Results 
 
@@ -112,12 +107,13 @@ Since May 11, this project goes well and three goals of this project have been r
 3. Github
 	* Version control
 	* Project organization
-4. Jupter notebook
-5. Found and learnt to use some small but useful tools
+4. BIDS
+5. Jupter notebook
+6. Found and learnt to use some small but useful tools
 	* [Peek](https://github.com/phw/peek) for GIF making
 	* [Gedit](https://wiki.gnome.org/Apps/Gedit) to edit code or markdown
-6. Medical file format (NII) and data structure (BIDS)
-7. Statistical method and machine learning
+7. Medical file format (NII) and data structure (BIDS)
+8. Statistical method and machine learning
 
 
 
