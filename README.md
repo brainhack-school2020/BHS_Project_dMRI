@@ -47,8 +47,9 @@ The "Diffusion MRI reconstruction project" will rely on the following tools:
 
 This project used data from online dataset offered by:
 1. [The Developing Human Connectome Project](http://www.developingconnectome.org/second-data-release/). It consists of over 800 neonatal scans and over 250 fetal scans and can be used to data analysis after image reconstruction. 
-2. [PRIME](http://fcon_1000.projects.nitrc.org/indi/PRIMEdownloads.html): used this dataset to reconstruct diffusion Images. 
+2. [PRIME](http://fcon_1000.projects.nitrc.org/indi/PRIMEdownloads.html): used this dataset to reconstruct diffusion Images. This is also can be download [here](https://drive.google.com/file/d/1zgxynxjUCETBC6MAl4rfh0sL0WhFtKA9/view?usp=sharing) directly. 
 3. Since during preprocessing, we used epi data with two oposite phase-encoding directions to correct distortions, other data can also be used as the source data if meet this requiement.
+4. Data used for analyzation is generated from image data after preprocessed. The final data can be found in this [github project folder](https://github.com/brainhack-school2020/BHS_Project_dMRI/blob/master/brain_water.csv).
 
 ### Deliverables
 
@@ -132,4 +133,12 @@ Formating final project file...
 
 ## Conclusion and acknowledgement
 
-TBD
+## References
+
+1. FMRIB Software Library v6.0, https://fsl.fmrib.ox.ac.uk/fsl/fslwiki/FSL
+2. MARKDOWN Syntax, https://www.markdownguide.org/basic-syntax/
+3. RDadarwal (2020), https://github.com/RDadarwal
+4. Nipype interface FSL, https://nipype.readthedocs.io/en/latest/api/generated/nipype.interfaces.fsl.html
+5. Plotly Python Open Source Graphing Library, https://plotly.com/python/
+6. Jupyter Widgets, https://ipywidgets.readthedocs.io/en/latest/examples/Widget%20Basics.html
+7. Scikit-learn Classifier comparison, https://scikit-learn.org/stable/auto_examples/classification/plot_classifier_comparison.html
