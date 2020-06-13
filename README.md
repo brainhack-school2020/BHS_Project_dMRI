@@ -98,7 +98,8 @@ At the end of this project, we will have: Jupyter notebook will be developted, a
 
 ### Progress overview
 
-Formating final project file...
+Since May 11, this project goes well and three goals of this project have been reached. This is just to let me be familiar with steps and tools of diffusion MRI processing. Next, I will combine different processing method into this project. Specificly, I would like to look deep into DTI model fitting and try to replace it by a new model created by myself.
+
 ## What I have leraned
 1. Python
 	* FSL, Nipype.interfaces, DIPY
@@ -118,20 +119,26 @@ Formating final project file...
 6. Medical file format (NII) and data structure (BIDS)
 7. Statistical method and machine learning
 
-## Dependencies
+%## Dependencies
 
-* Operation system: I use Linux (Ubuntu 20.04) to complete this project.
-* Python: both Python2 and Python3 were used in this project.
-* Jupter and jupyterlab are needed to run jupyter notebooks in this project.
-* Dipy (https://dipy.org/)
-* Nipype (http://miykael.github.io/nipype-beginner-s-guide/installation.html)
-* FSL (https://fsl.fmrib.ox.ac.uk/fsl/fslwiki/FSL). I installed FSL6.0 based on python2 following FslInstallation/Linux (https://fsl.fmrib.ox.ac.uk/fsl/fslwiki/FslInstallation/Linux) and FslInstallation/ShellSetup. In addtion, update Fsl-core is recommended.
-* NeuroDebian: To facilitate FSL and Nipype, NeuroDebian is need to be installed. I installed it following http://neuro.debian.net/.
-* AMICO (https://github.com/daducci/AMICO)
+%* Operation system: I use Linux (Ubuntu 20.04) to complete this project.
+%* Python: both Python2 and Python3 were used in this project.
+%* Jupter and jupyterlab are needed to run jupyter notebooks in this project.
+%* Dipy (https://dipy.org/)
+%* Nipype (http://miykael.github.io/nipype-beginner-s-guide/installation.html)
+%* FSL (https://fsl.fmrib.ox.ac.uk/fsl/fslwiki/FSL). I installed FSL6.0 based on python2 following FslInstallation/Linux (https://fsl.fmrib.ox.ac.uk/fsl/fslwiki/FslInstallation/Linux) and FslInstallation/ShellSetup. In addtion, update Fsl-core is recommended.
+%* NeuroDebian: To facilitate FSL and Nipype, NeuroDebian is need to be installed. I installed it following http://neuro.debian.net/.
+%* AMICO (https://github.com/daducci/AMICO)
 
 
 
 ## Conclusion and acknowledgement
+
+This project started with medical imaging data format, then preprocessed the diffusion weighted images, which includes MP-PCA denoising, FSL TOPUP distortion correction and head movement correction. After this, DTI images were reconstructed from this preprocessed images successfully. Addtionally, dataset for left and right hemispheres classification was generate from this preprocessed images. By using KNN method, classification accuracy of 92% was reached. As a starter, I will continue this project in the future. Soon, self-made model, instead of DTI model, will be used to reconstruct diffusion images. After that, I would like to use machine learning method to classify potential changes of brain microstructures.
+
+
+Thanks to [Brainhack Summer School 2020](https://school.brainhackmtl.org/) and all instructors. Specificly, I would like to thank my instructors Noor, Greg and Agah for your advices, instruction and encourages. I feel so luck to find and take this summer school. During this short one month, I touched so many new skills and tools and began my first neuroscience project. I would also like to thanks all the summer shcool students, just because of you, I know how wonderful neuroscience world is and how active neuroscience group is! 
+
 
 ## References
 
