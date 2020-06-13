@@ -119,7 +119,7 @@ Since May 11, this project goes well and three goals of this project have been r
 6. Medical file format (NII) and data structure (BIDS)
 7. Statistical method and machine learning
 
-;## Dependencies
+[comment]: ## Dependencies
 
 ;* Operation system: I use Linux (Ubuntu 20.04) to complete this project.
 ;* Python: both Python2 and Python3 were used in this project.
