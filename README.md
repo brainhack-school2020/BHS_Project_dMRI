@@ -64,9 +64,21 @@ At the end of this project, we will have: Jupyter notebook will be developed, al
 ## Results 
 
 1. Data Visualization (see [gif figure](https://github.com/brainhack-school2020/BHS_Project_dMRI/tree/master/Visualization) below):
-  - 3D volume slices image: show different slices of images, change observe view point, play animation;
-  - Interactive widgets use to show preprocess results: select different maps, slices, maximum diffusion sthrength, and display title;
-  - Interactive widgets use to show reconstruction results: play different maps, slices, maximum diffusion sthrength, and display give title.
+  - 3D volume slices image
+  	1. Show different slices of images;
+  	2. Change observe view point;
+  	3. Play animation;
+  - Interactive widgets use to show preprocess results
+  	1. Select different maps;
+  	2. Select slices;
+  	3. Select maximum diffusion sthrength;
+  	4. Display title
+  - Interactive widgets use to show reconstruction results;
+  	1. Play different maps;
+  	2. Select slices;
+  	3. Slect maximum diffusion sthrength;
+  	4. Display give title.
+  	
 <div align="center">
 	<img src="https://github.com/brainhack-school2020/BHS_Project_dMRI/blob/master/Visualization/VolumeSlicesImg.gif" width="300" alt="1" title="3D volume slices image">
 	<img src="https://github.com/brainhack-school2020/BHS_Project_dMRI/blob/master/Visualization/Preprocessing.gif" width="300" title="Interactive widgets use to show preprocess results">	
@@ -83,6 +95,7 @@ At the end of this project, we will have: Jupyter notebook will be developed, al
 	5. Extract maps from 4D data and show results.
 
 * **Results** 
+
 <div align="left">
 	<img src="https://github.com/brainhack-school2020/BHS_Project_dMRI/blob/master/Fig/PreproResults.png" width="650" alt="1" title="DTI Results">
 </div>
@@ -95,7 +108,7 @@ At the end of this project, we will have: Jupyter notebook will be developed, al
 	3. Colored diffusion map was coded and saved;
 	4. Show maps
 	
-* **Results*
+* **Results**
 
 <div align="left">
 	<img src="https://github.com/brainhack-school2020/BHS_Project_dMRI/blob/master/Fig/DTI_Results.png" width="800" alt="1" title="DTI Results">
