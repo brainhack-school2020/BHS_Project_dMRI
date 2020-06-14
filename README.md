@@ -64,29 +64,44 @@ At the end of this project, we will have: Jupyter notebook will be developed, al
 ## Results 
 
 1. Data Visualization (see [gif figure](https://github.com/brainhack-school2020/BHS_Project_dMRI/tree/master/Visualization) below):
-  - 3D volume slices image 
-  - Interactive widgets use to show preprocess results 
-  - Interactive widgets use to show reconstruction results 
+  - 3D volume slices image: show different slices of images, change observe view point, play animation;
+  - Interactive widgets use to show preprocess results: select different maps, slices, maximum diffusion sthrength, and display title;
+  - Interactive widgets use to show reconstruction results: play different maps, slices, maximum diffusion sthrength, and display give title.
 <div align="center">
 	<img src="https://github.com/brainhack-school2020/BHS_Project_dMRI/blob/master/Visualization/VolumeSlicesImg.gif" width="300" alt="1" title="3D volume slices image">
 	<img src="https://github.com/brainhack-school2020/BHS_Project_dMRI/blob/master/Visualization/Preprocessing.gif" width="300" title="Interactive widgets use to show preprocess results">	
 	<img src="https://github.com/brainhack-school2020/BHS_Project_dMRI/blob/master/Visualization/ReconstructedImg.gif" width="300" title="Interactive widgets use to show reconstruction results">
 </div>
-2. Preprocessing results
+2. Preprocessing
 
+* **Method** 
+	1. Load diffusion weighted image data and set data path;
+	2. Denoise data by using MP-PCA method of DIPY;
+	3. Correct distortion by using FSL TOPUP;
+	4. Extract brain and create brain mask by using FST bet;
+	5. Correct head movement artifacts by using FSL EDDY;
+	5. Extract maps from 4D data and show results.
+
+* **Results** 
 <div align="left">
 	<img src="https://github.com/brainhack-school2020/BHS_Project_dMRI/blob/master/Fig/PreproResults.png" width="650" alt="1" title="DTI Results">
 </div>
 
-3. DTI results
+3. DTI reconstruction
 
-
+* **Method** 
+	1. DIPY was used to fit tensor model;
+	2. Different maps were saved;
+	3. Colored diffusion map was coded and saved;
+	4. Show maps
+	
+* **Results*
 
 <div align="left">
 	<img src="https://github.com/brainhack-school2020/BHS_Project_dMRI/blob/master/Fig/DTI_Results.png" width="800" alt="1" title="DTI Results">
 </div>
 
-4. Left and right hemispheres classification results
+4. Left and right hemispheres classification
 
 * **Method** 
 	1. 80 Slices of brain images (40 left hemisphere slice and 40 right hemisphere) were extracted and transfered to brain parts classification;
