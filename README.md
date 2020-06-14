@@ -73,17 +73,23 @@ At the end of this project, we will have: Jupyter notebook will be developed, al
   	2. Select slices;
   	3. Select maximum diffusion sthrength;
   	4. Display title
+  - Interactive widgets 2 use to show preprocess results
+  	1. play different maps;
+  	2. Select slices;
+  	3. Select maximum diffusion sthrength;
+  	4. Display title
   - Interactive widgets use to show reconstruction results;
   	1. Play different maps;
   	2. Select slices;
   	3. Slect maximum diffusion sthrength;
   	4. Display give title.
   	
-<div align="center">
-	<img src="https://github.com/brainhack-school2020/BHS_Project_dMRI/blob/master/Visualization/VolumeSlicesImg.gif" width="250" alt="1" title="3D volume slices image">
-	<img src="https://github.com/brainhack-school2020/BHS_Project_dMRI/blob/master/Visualization/Preprocessing.gif" width="250" title="Interactive widgets use to show preprocess results">
-	<img src="https://github.com/brainhack-school2020/BHS_Project_dMRI/blob/master/Visualization/Preprocessing2.gif" width="250" title="Interactive widgets use to show preprocess results">	
-	<img src="https://github.com/brainhack-school2020/BHS_Project_dMRI/blob/master/Visualization/ReconstructedImg.gif" width="250" title="Interactive widgets use to show reconstruction results">
+<div align="left">
+	<img src="https://github.com/brainhack-school2020/BHS_Project_dMRI/blob/master/Visualization/VolumeSlicesImg.gif" width="300" alt="1" title="3D volume slices image">
+	<img src="https://github.com/brainhack-school2020/BHS_Project_dMRI/blob/master/Visualization/Preprocessing.gif" width="300" title="Interactive widgets use to show preprocess results">
+	
+	<img src="https://github.com/brainhack-school2020/BHS_Project_dMRI/blob/master/Visualization/Preprocessing2.gif" width="300" title="Interactive widgets use to show preprocess results">	
+	<img src="https://github.com/brainhack-school2020/BHS_Project_dMRI/blob/master/Visualization/ReconstructedImg.gif" width="300" title="Interactive widgets use to show reconstruction results">
 </div>
 2. Preprocessing
 
