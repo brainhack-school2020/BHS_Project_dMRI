@@ -61,7 +61,7 @@ At the end of this project, we will have: Jupyter notebook will be developed, al
  - Week 4: [Project report](https://github.com/brainhack-school2020/BHS_Project_dMRI) and [project prosentation](https://github.com/brainhack-school2020/BHS_Project_dMRI/blob/master/BHS_dMRI_Project.pdf)
  
 
-## Results 
+## Methods and Results 
 
 1. Data Visualization (see [gif figure](https://github.com/brainhack-school2020/BHS_Project_dMRI/tree/master/Visualization) below):
   - 3D volume slices image
