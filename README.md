@@ -24,9 +24,9 @@ Currently, there are some open-source softwares to reconstruct and analyze diffu
 
 Thus, I began this project to preprocess  dMRI data, reconstruct diffusion MR images and do some analysis by using machine learning. The goals are as following:
 
-* Get preprocessed diffusion MR images from raw data;
-* Reconstruct diffusion tensor images from the preprocessed data;
-* By using machine learning, try to classify two hemispherical brains from preprocessed diffusion images.
+* **Data Preprocesssing** Get preprocessed diffusion MR images from raw MRI data;
+* **Image Reconstruction** Reconstruct diffusion tensor images from the preprocessed data;
+* **Machine Learning Classsification** By using machine learning, randomly choose left or right hemispheres on each slice of MRI images preprocessed above and find method to give results that which part it is belonging to (right or left?). 
 
 ### Tools 
 
@@ -80,11 +80,24 @@ At the end of this project, we will have: Jupyter notebook will be developed, al
 
 3. DTI results
 
+
+
 <div align="left">
 	<img src="https://github.com/brainhack-school2020/BHS_Project_dMRI/blob/master/Fig/DTI_Results.png" width="800" alt="1" title="DTI Results">
 </div>
 
 4. Left and right hemispheres classification results
+
+* **Method** 
+	1. 80 Slices of brain images (40 left hemisphere slice and 40 right hemisphere) were extracted and transfered to brain parts classification;
+	2. Left hemisphere brain image and right hemisphere brain iamge were taged with 0 and 1 specifically;
+	3. Slice number was treated as one of features used for classification;
+	4. Diffusino strength of each slice hemisphere was calculated  as the second feature of classification;
+	5. Total effictive voxel of eahc slice hemisphere was calculated as the third feature for classification;
+	6. Dataset was splitted into train dataset (70%) and test dataset (30%);
+	7. Use KNN to classify
+	
+* **Classification Reports**
 
 <div align="left">
 	<img src="https://github.com/brainhack-school2020/BHS_Project_dMRI/blob/master/Fig/classification.png" width="400" alt="1" title="DTI Results">
