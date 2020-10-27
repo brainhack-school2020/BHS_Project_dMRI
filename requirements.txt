@@ -12,7 +12,7 @@ ci-info==0.2.0
 click==7.1.2
 conda==4.8.3
 conda-package-handling==1.6.0
-cryptography==2.9.2
+cryptography==3.2
 cvxopt==1.2.5
 cycler==0.10.0
 dash==1.12.0
