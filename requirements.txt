@@ -94,7 +94,7 @@ pycparser==2.20
 pydicom @ file:///home/conda/feedstock_root/build_artifacts/pydicom_1590767348156/work
 pydotplus==2.0.2
 pyflakes==2.2.0
-Pygments==2.6.1
+Pygments==2.7.4
 pyOpenSSL==19.1.0
 pyparsing==2.4.7
 PyQt5==5.12.3
