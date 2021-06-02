@@ -134,7 +134,7 @@ tornado==6.0.4
 tqdm @ file:///home/conda/feedstock_root/build_artifacts/tqdm_1591181521996/work
 traitlets==4.3.3
 traits==6.0.0
-urllib3==1.25.9
+urllib3==1.26.5
 wcwidth @ file:///home/conda/feedstock_root/build_artifacts/wcwidth_1591117871324/work
 webencodings==0.5.1
 Werkzeug==1.0.1
