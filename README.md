@@ -1,11 +1,11 @@
 [![](https://img.shields.io/badge/Visit-our%20project%20page-ff69b4)](https://school.brainhackmtl.org/project/template)
 
-# Mini-Project 1: Diffusion MRI reconstruction project
+# Mini-Project 1: dMRI Processing and Reconstruction Project
 
 Team contributors: EJZ, Brainhack School 2020
 
 <div align="left">
-<img src="https://github.com/brainhack-school2020/BHS_Project_dMRI/blob/master/bhs2020.png" title="Brainhack School" width=600>
+<img src="https://github.com/brainhack-school2020/BHS_Project_dMRI/blob/master/bhs2020.png" title="Brainhack School" width=60>
 </div>
 
 ## Summary 
