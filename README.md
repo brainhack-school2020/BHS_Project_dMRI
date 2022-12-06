@@ -1,11 +1,11 @@
 [![](https://img.shields.io/badge/Visit-our%20project%20page-ff69b4)](https://school.brainhackmtl.org/project/template)
 
-# Mini-Project 1: dMRI Processing and Reconstruction Project
+# Mini-Project 1: dMRI Processing Protocol and Reconstruction
 
 Team contributors: EJZ, Brainhack School 2020
 
 <div align="left">
-<img src="https://github.com/brainhack-school2020/BHS_Project_dMRI/blob/master/bhs2020.png" title="Brainhack School" width=300 height=130>
+<img src="./bhs2020.png" title="Brainhack School" width=300 height=130>
 </div>
 
 ## Summary 
@@ -49,21 +49,21 @@ This project used data from online dataset offered by:
 1. [The Developing Human Connectome Project](http://www.developingconnectome.org/second-data-release/). It consists of over 800 neonatal scans and over 250 fetal scans and can be used for data analysis after image reconstruction. 
 2. [PRIME](http://fcon_1000.projects.nitrc.org/indi/PRIMEdownloads.html): used this dataset to reconstruct diffusion Images. This also can be downloaded [here](https://drive.google.com/file/d/1zgxynxjUCETBC6MAl4rfh0sL0WhFtKA9/view?usp=sharing) directly. 
 3. Since during preprocessing, we used epi data with two opposite phase-encoding directions to correct distortions, other data can also be used as the source data if it meets this requirement.
-4. Data used for analysis is generated from image data after preprocessing. The final data can be found in this [github project folder](https://github.com/brainhack-school2020/BHS_Project_dMRI/blob/master/brain_water.csv).
+4. Data used for analysis is generated from image data after preprocessing. The final data can be found in this [github project folder](./brain_water.csv).
 
 ### Deliverables
 
 At the end of this project, we will have: Jupyter notebook will be developed, allowing diffusion MR reconstruction and data analyzation. Weekly Deliverables are as following:
  
  - Week 1: [Assignment 2](https://github.com/zhangerjun/Zhang-EJ-QLS612)
- - Week 2: [README file](https://github.com/brainhack-school2020/BHS_Project_dMRI/blob/master/README.md)
- - Week 3: [Data visualization](https://github.com/brainhack-school2020/BHS_Project_dMRI/tree/master/Visualization)
- - Week 4: [Project report](https://github.com/brainhack-school2020/BHS_Project_dMRI) and [project prosentation](https://github.com/brainhack-school2020/BHS_Project_dMRI/blob/master/BHS_dMRI_Project.pdf)
+ - Week 2: [README file](./README.md)
+ - Week 3: [Data visualization](./Visualization)
+ - Week 4: [Project report](https://github.com/brainhack-school2020/BHS_Project_dMRI) and [project prosentation](./BHS_dMRI_Project.pdf)
  
 
 ## Methods and Results 
 
-1. Data Visualization (see [gif figure](https://github.com/brainhack-school2020/BHS_Project_dMRI/tree/master/Visualization) below):
+1. Data Visualization (see [gif figure](./Visualization) below):
   - 3D volume slices image
   	1. Show different slices of images;
   	2. Change observe view point;
@@ -85,12 +85,12 @@ At the end of this project, we will have: Jupyter notebook will be developed, al
   	4. Display title.
 
 <div align="left">
-	<img src="https://github.com/brainhack-school2020/BHS_Project_dMRI/blob/master/Visualization/VolumeSlicesImg.gif" width="300" alt="1" title="3D volume slices image">
-	<img src="https://github.com/brainhack-school2020/BHS_Project_dMRI/blob/master/Visualization/Preprocessing.gif" width="300" title="Interactive widgets use to show preprocess results">
+	<img src="./Visualization/VolumeSlicesImg.gif" width="300" height="200"alt="1" title="3D volume slices image">
+	<img src="./Visualization/Preprocessing.gif" width="300" height="200" title="Interactive widgets use to show preprocess results">
 </div>
 <div align="left">
-	<img src="https://github.com/brainhack-school2020/BHS_Project_dMRI/blob/master/Visualization/ReconstructedImg.gif" width="300" title="Interactive widgets use to show reconstruction results">
-	<img src="https://github.com/brainhack-school2020/BHS_Project_dMRI/blob/master/Visualization/Preprocessing2.gif" width="300" title="Interactive widgets use to show preprocess results">	
+	<img src="./Visualization/ReconstructedImg.gif" width="300" height="200" title="Interactive widgets use to show reconstruction results">
+	<img src="./Visualization/Preprocessing2.gif" width="300" height="200" title="Interactive widgets use to show preprocess results">	
 </div>
 2. Preprocessing
 
@@ -105,7 +105,7 @@ At the end of this project, we will have: Jupyter notebook will be developed, al
 * **Results** 
 
 <div align="left">
-	<img src="https://github.com/brainhack-school2020/BHS_Project_dMRI/blob/master/Fig/PreproResults.png" width="650" alt="1" title="DTI Results">
+	<img src="./Fig/PreproResults.png" width="650" height="450" alt="1" title="DTI Results">
 </div>
 
 3. DTI reconstruction
@@ -119,7 +119,7 @@ At the end of this project, we will have: Jupyter notebook will be developed, al
 * **Results**
 
 <div align="left">
-	<img src="https://github.com/brainhack-school2020/BHS_Project_dMRI/blob/master/Fig/DTI_Results.png" width="800" alt="1" title="DTI Results">
+	<img src="./Fig/DTI_Results.png" width="800" alt="1" title="DTI Results">
 </div>
 
 4. Left and right hemispheres classification
@@ -136,7 +136,7 @@ At the end of this project, we will have: Jupyter notebook will be developed, al
 * **Classification Reports**
 
 <div align="left">
-	<img src="https://github.com/brainhack-school2020/BHS_Project_dMRI/blob/master/Fig/classification.png" width="400" alt="1" title="DTI Results">
+	<img src="./Fig/classification.png" width="400" alt="1" title="DTI Results">
 </div>
 
 
