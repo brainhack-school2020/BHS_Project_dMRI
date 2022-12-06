@@ -1,11 +1,11 @@
 [![](https://img.shields.io/badge/Visit-our%20project%20page-ff69b4)](https://school.brainhackmtl.org/project/template)
 
-# Diffusion MRI reconstruction project
+# Mini-Project 1: Diffusion MRI reconstruction project
 
-Team contributors: Erjun Zhang, Brainhack School 2020
+Team contributors: EJZ, Brainhack School 2020
 
 <div align="left">
-<img src="https://github.com/brainhack-school2020/BHS_Project_dMRI/blob/master/bhs2020.png" title="Brainhack School" width=500>
+<img src="https://github.com/brainhack-school2020/BHS_Project_dMRI/blob/master/bhs2020.png" title="Brainhack School" width=600>
 </div>
 
 ## Summary 
@@ -173,7 +173,7 @@ Since May 11, this project goes well and three goals of this project have been r
 This project started with medical imaging data format, then preprocessed the diffusion weighted images, which includes MP-PCA denoising, FSL TOPUP distortion correction and head movement correction. After this, DTI images were reconstructed from these preprocessed images successfully. Additionally, a dataset for left and right hemispheres classification was generated from these preprocessed images. By using the KNN method, classification accuracy of 92% was reached. As a starter, I will continue this project in the future. Soon, self-made models, instead of DTI model, will be used to reconstruct diffusion images. After that, I would like to use machine learning methods to classify potential changes of brain microstructures.
 
 
-Thanks to [Brainhack Summer School 2020](https://school.brainhackmtl.org/) and all instructors. Specifically, I would like to thank my instructors Noor, Greg and Agah for your advice, instruction and encouragement. I feel so lucky to find and take this summer school. During this short one month, I touched so many new skills and tools and began my first neuroscience project. I would also like to thank all the summer school students, just because of you, I know how wonderful the neuroscience world is and how active the neuroscience group is! 
+Thanks to [Brainhack Summer School 2020](https://school.brainhackmtl.org/) and all instructors. Specifically, I would like to thank my instructors Noor, Greg and Agah for your advice, instruction and encouragement. I would also like to thank all the summer school students, just because of you, I know how wonderful the neuroscience world is and how active the neuroscience group is! 
 
 
 ## References
