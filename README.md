@@ -10,9 +10,9 @@ Team contributors: EJZ, Brainhack School 2020
 
 ## Summary 
 
-This project is about diffusion magnetic resonance (MR) data processing and analysis. It mainly consists of three parts: brain diffusion MR data preprocessing, diffusion MRI images reconstruction, data visualization and left and right hemispherical preprocessed MR images classification. The whole procedures can be found in [this Jupyter Notebook file](https://github.com/brainhack-school2020/BHS_Project_dMRI/blob/master/dMRI%20Reconstruction%20Project.ipynb). Explanations about procedures results and other details are given in it.
+This project is about diffusion magnetic resonance (dMR) data processing and analysis. It mainly consists of three parts: brain dMR data preprocessing, dMRI reconstruction, data visualization and left and right hemispherical preprocessed MR images classification. The whole procedures can be found in [this Jupyter Notebook file](https://github.com/brainhack-school2020/BHS_Project_dMRI/blob/master/dMRI%20Reconstruction%20Project.ipynb). Explanations about procedures results and other details are given in it.
 
-With reproducibility being a primary concern, this project was completed by using open-source softwares/tools (Python, FSL, DIPYPE...) and dataset (dHCP and PRIME). It can be as a simple tutorial/example for new students in neuroscience (diffusion MR brain imaging) to familiar/start with their further neuroscience study. 
+With reproducibility being a primary concern, this project was completed by using open-source softwares/tools (Python, FSL, DIPYPE...) and dataset (dHCP and PRIME). It can be as a simple tutorial/example for new students in neuroscience (dMR brain imaging) to familiar/start with their further neuroscience work. 
 
 ## Project definition 
 
@@ -168,7 +168,7 @@ Since May 11, this project goes well and three goals of this project have been r
 
 
 
-## Conclusion and acknowledgement
+## Conclusion
 
 This project started with medical imaging data format, then preprocessed the diffusion weighted images, which includes MP-PCA denoising, FSL TOPUP distortion correction and head movement correction. After this, DTI images were reconstructed from these preprocessed images successfully. Additionally, a dataset for left and right hemispheres classification was generated from these preprocessed images. By using the KNN method, classification accuracy of 92% was reached. As a starter, I will continue this project in the future. Soon, self-made models, instead of DTI model, will be used to reconstruct diffusion images. After that, I would like to use machine learning methods to classify potential changes of brain microstructures.
 
