@@ -14,7 +14,7 @@ This project is about diffusion magnetic resonance (dMR) data processing and ana
 
 With reproducibility being a primary concern, this project was completed by using open-source softwares/tools (Python, FSL, DIPYPE...) and dataset (dHCP and PRIME). It can be as a simple tutorial/example for new students in neuroscience (dMR brain imaging) to familiar/start with their further neuroscience work. 
 
-## Project definition 
+## Project Definition 
 
 ### Background
 
