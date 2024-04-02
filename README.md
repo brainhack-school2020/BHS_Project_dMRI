@@ -1,18 +1,14 @@
 [![](https://img.shields.io/badge/Visit-our%20project%20page-ff69b4)](https://school.brainhackmtl.org/project/template)
 
-# Mini-Project 1: dMRI Processing Protocol and Reconstruction
+# Diffusion MRI Processing Protocol and Reconstruction
 
 Team contributors: EJZ, Brainhack School 2020
 
-<div align="left">
-<img src="./bhs2020.png" title="Brainhack School" width=300 height=130>
-</div>
-
 ## Summary 
 
-This project is about diffusion magnetic resonance (dMR) data processing and analysis. It mainly consists of three parts: brain dMR data preprocessing, dMRI reconstruction, data visualization and left and right hemispherical preprocessed MR images classification. The whole procedures can be found in [this Jupyter Notebook file](https://github.com/brainhack-school2020/BHS_Project_dMRI/blob/master/dMRI%20Reconstruction%20Project.ipynb). Explanations about procedures results and other details are given in it.
+This project is about diffusion magnetic resonance imaging (dMRI) data processing and analysis. It mainly consists of three parts: brain dMR data preprocessing, dMRI reconstruction, data visualization and left and right hemispherical preprocessed MR images classification.
 
-With reproducibility being a primary concern, this project was completed by using open-source softwares/tools (Python, FSL, DIPYPE...) and dataset (dHCP and PRIME). It can be as a simple tutorial/example for new students in neuroscience (dMR brain imaging) to familiar/start with their further neuroscience work. 
+With reproducibility being a primary concern, this project was completed by using open-source softwares/tools (Python, FSL, DIPYPE...) and dataset (dHCP and PRIME).  With this project, you can have a general idea of dMRI processing and analysis. It can be used as a simple warmup project for new students in neuroscience (dMRI brain imaging). 
 
 ## Project Definition 
 
@@ -48,7 +44,7 @@ The "Diffusion MRI reconstruction project" will rely on the following tools:
 This project used data from online dataset offered by:
 1. [The Developing Human Connectome Project](http://www.developingconnectome.org/second-data-release/). It consists of over 800 neonatal scans and over 250 fetal scans and can be used for data analysis after image reconstruction. 
 2. [PRIME](http://fcon_1000.projects.nitrc.org/indi/PRIMEdownloads.html): used this dataset to reconstruct diffusion Images. This also can be downloaded [here](https://drive.google.com/file/d/1zgxynxjUCETBC6MAl4rfh0sL0WhFtKA9/view?usp=sharing) directly. 
-3. Since during preprocessing, we used epi data with two opposite phase-encoding directions to correct distortions, other data can also be used as the source data if it meets this requirement.
+3. Since during preprocessing, we used EPI data with two opposite phase-encoding directions to correct distortions, other data can also be used as the source data if it meets this requirement.
 4. Data used for analysis is generated from image data after preprocessing. The final data can be found in this [github project folder](./brain_water.csv).
 
 ### Deliverables
@@ -144,7 +140,7 @@ At the end of this project, we will have: Jupyter notebook will be developed, al
 
 Since May 11, this project goes well and three goals of this project have been reached. This is just to let me be familiar with steps and tools of diffusion MRI processing. Next, I will combine different processing methods into this project. Specifically, I would like to look deep into DTI model fitting and try to replace it by a new model created by myself.
 
-## What I have learned
+## Things learned through this project
 1. Python
 	* FSL, Nipype.interfaces, DIPY
 	* matplotlib, plotly, ipywidgets
@@ -170,19 +166,19 @@ Since May 11, this project goes well and three goals of this project have been r
 
 ## Conclusion
 
-This project started with medical imaging data format, then preprocessed the diffusion weighted images, which includes MP-PCA denoising, FSL TOPUP distortion correction and head movement correction. After this, DTI images were reconstructed from these preprocessed images successfully. Additionally, a dataset for left and right hemispheres classification was generated from these preprocessed images. By using the KNN method, classification accuracy of 92% was reached. As a starter, I will continue this project in the future. Soon, self-made models, instead of DTI model, will be used to reconstruct diffusion images. After that, I would like to use machine learning methods to classify potential changes of brain microstructures.
+This project started with medical imaging data format, then preprocessed the diffusion weighted images, which includes MP-PCA denoising, FSL TOPUP distortion correction and head movement correction. After this, DTI images were reconstructed from these preprocessed images successfully. Additionally, a dataset for left and right hemispheres classification was generated from these preprocessed images. By using the KNN method, classification accuracy of 92% was reached. In the future, self-made models, instead of DTI model, will be used to reconstruct diffusion images. Machine learning methods will also be used to classify potential changes of brain microstructures.
 
 *Acknowledgement*
 
-Thanks to [Brainhack Summer School 2020](https://school.brainhackmtl.org/) and all instructors. Specifically, I would like to thank my instructors Noor, Greg and Agah for your advice, instruction and encouragement. I would also like to thank all the summer school students, just because of you, I know how wonderful the neuroscience world is and how active the neuroscience group is! 
+Thanks to [Brainhack Summer School 2020](https://school.brainhackmtl.org/) and all instructors. Specifically, I would like to thank my instructors Noor, Greg and Agah for your advice, instruction and encouragement. I would also like to thank all the summer school students, just because of you, I know how wonderful the neuroscience world is and how active the neuroscience group is! This work was completed in Magic Lab, TransMedTech Institute, CHU Saint-Justine Hospital and NeoroPoly Lab at Polytechnique.
 
 
 ## References
 
-1. FMRIB Software Library v6.0, https://fsl.fmrib.ox.ac.uk/fsl/fslwiki/FSL
-2. MARKDOWN Syntax, https://www.markdownguide.org/basic-syntax/
-3. RDadarwal (2020), https://github.com/RDadarwal
-4. Nipype interface FSL, https://nipype.readthedocs.io/en/latest/api/generated/nipype.interfaces.fsl.html
-5. Plotly Python Open Source Graphing Library, https://plotly.com/python/
-6. Jupyter Widgets, https://ipywidgets.readthedocs.io/en/latest/examples/Widget%20Basics.html
-7. Scikit-learn Classifier comparison, https://scikit-learn.org/stable/auto_examples/classification/plot_classifier_comparison.html
+1. [FMRIB Software Library v6.0](https://fsl.fmrib.ox.ac.uk/fsl/fslwiki/FSL)
+2. [MARKDOWN Syntax](https://www.markdownguide.org/basic-syntax/)
+3. [RDadarwal (2020)](https://github.com/RDadarwal)
+4. [Nipype interface FSL](https://nipype.readthedocs.io/en/latest/api/generated/nipype.interfaces.fsl.html)
+5. [Plotly Python Open Source Graphing Library](https://plotly.com/python/)
+6. [Jupyter Widgets](https://ipywidgets.readthedocs.io/en/latest/examples/Widget%20Basics.html)
+7. [Scikit-learn Classifier comparison](https://scikit-learn.org/stable/auto_examples/classification/plot_classifier_comparison.html)
