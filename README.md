@@ -1,6 +1,8 @@
 [![](https://img.shields.io/badge/Visit-our%20project%20page-ff69b4)](https://school.brainhackmtl.org/project/template)
+[![](https://img.shields.io/badge/Visit-our%20project%20page-ff69b4)](https://github.com/zhangerjun/Introduction_To_Python-based_Biomedical_Data_Analysis)
 
 # Diffusion MRI Processing Protocol and Reconstruction
+*[An Introduction to Python-based MRI Data Analysis](https://github.com/zhangerjun/Introduction_To_Python-based_Biomedical_Data_Analysis): mini-project III/VIII*
 
 Team contributors: EJZ, Brainhack School 2020
 
